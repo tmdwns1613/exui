@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <form action="exhtml04.html">
+        아이디 : <input type="text" name="userid" value="전승준" /><br>
+        암호 : <input type="password" name="userpass" /><br>
+        성별 : <input type="radio" name="gender" value="male" checked id="rad1"  />
+                <label for="rad1">남성</label>
+               <input type="radio" name="gender" value="female" id="rad2"  />
+                <label for="rad2">여성</label>
+        <br>
+        걸그룹 : <input type="checkbox" name="gender" value="male" checked id="chk1" /> 
+                <label for="chk1">레드벨벳</label>
+                <input type="checkbox" name="gender" value="female" id="chk2"  />
+                <label for="chk2">트와이스</label>
+                <input type="checkbox" name="gender" value="female" id="chk3" />
+                <label for="chk3">블랙핑크</label>
+                <input type="checkbox" name="gender" value="female" id="chk4"  />
+                <label for="chk4">프리스틴</label>
+        <br>
+        신청 내용 : <select name="drink2" multiple >
+                <option value="coffee">TT</option>
+                <option value="cola" selected >피카부</option>
+                <option value="tea">마지막처럼</option>
+                <option value="tea">WEE WOO</option>
+            </select>
+            <br>
+            <textarea name="memo" cols="30" rows="10">피카부 노래랑 춤춰줘요 </textarea>
+            <br>
+            <input type="file" name="upfile" />
+            <input type="hidden" name="x" value="123" />
+
+            <input type="submit" value="신청곡" />    
+            <input type="reset" value="취소" />
+    </form>
+    
+</body>
+</html>
